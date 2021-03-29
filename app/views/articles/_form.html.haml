@@ -4,6 +4,10 @@
       - article.errors.full_messages.each do |message|
         %li= message
     %div
+      = f.label :eyecatch, 'アイキャッチ'
+    %div 
+      = f.file_field :eyecatch
+    %div
       = f.label :title, 'タイトル'
     %div
       = f.text_field :title, class: 'text'
