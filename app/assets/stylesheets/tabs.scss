@@ -14,7 +14,14 @@
 
     &.active {
       background-color: $primary-color;
-      color: white;
+
+      a {
+        color: white;
+      }
+    }
+
+    a {
+      display: block;
     }
 
     &:hover {
